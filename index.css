@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #00aaff;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.hide {
+    opacity: .6;
+    transition: opacity 3s;
+}
+
+.hide:hover {
+    opacity: .1;
+}
+
+.hide:focus {
+    opacity: 0;
+}
+
+
+
+
+.change-color {
+    transition: all 2s;
+}
+
+.change-color:focus {
+    background-color: red;
+    color: black;
+}
